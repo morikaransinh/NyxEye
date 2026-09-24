@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10FE50EC92112B6AB9ACB913 /* OpenSpaceDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45A941276F0E0593835FE1D /* OpenSpaceDetectorTests.swift */; };
+		1137C86ADDCE3DC220FB7916 /* DisclaimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9221F340CF11D2319A7FB3 /* DisclaimerView.swift */; };
+		1D84F083CD4867C7E1462C8F /* SpeechAnnouncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D136EE69D2A8DBD0C2A6AD1 /* SpeechAnnouncer.swift */; };
+		2BEFC9A6E2CA073BB3699DA4 /* SpatialAudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142C9E6B8BD14FF3E7AA79E0 /* SpatialAudioEngine.swift */; };
+		3977D04E6BAA9DEAE17631C6 /* ObstacleDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E81954E7FB6A2760BB50FAB /* ObstacleDetectorTests.swift */; };
+		4417ED6496C5730BE9E42740 /* HearingGuard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5ADD6E7E6ADA1D377B46B1 /* HearingGuard.swift */; };
+		4A0879482EFADAD5024845B5 /* CueMappingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBD214FCCA03C148F0244DE /* CueMappingTests.swift */; };
+		4A3B323B6E50AFB68FCFC5D8 /* PipelineCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492D4964AB4706ECA9632E20 /* PipelineCoordinator.swift */; };
+		502CD5617302FEF7E73B85FD /* DaredevilKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4AF2DC8526F5190B1962EC6 /* DaredevilKit.framework */; };
+		56C6315DE7358FA985CD42AB /* DaredevilKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D4AF2DC8526F5190B1962EC6 /* DaredevilKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		61E3B9E582B5BA90AE34F365 /* DepthGridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9AD74DB2E1AEA4F9180758 /* DepthGridTests.swift */; };
+		65F96CE35B43E8CA58F22F41 /* NoiseRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07956C77C379936CF9A82173 /* NoiseRenderer.swift */; };
+		6A08355B62F5CE5A748FDDFB /* HeadTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401F50B38371882A6688E768 /* HeadTracker.swift */; };
+		6F5D5AC54861F429508A5DE6 /* HearingGuardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA2B7700C3B948BBC5EAF7 /* HearingGuardTests.swift */; };
+		709EC43C4F492660CA818A67 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2323E9C292230BE512C6A098 /* HelpView.swift */; };
+		790EC0110EA699BF7AF43BAE /* ARDepthSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FE99420B1B8955EFC51B20 /* ARDepthSource.swift */; };
+		845C76F65204A6CAEA5B4C9F /* CueMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FDF461F8951D782A97A185 /* CueMapping.swift */; };
+		A1BC1F48BCED984947D2DB7B /* StatusPhrases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207E4139F6FC11DF3C6954F3 /* StatusPhrases.swift */; };
+		BD078369BF7CAFDC9C1E0B4F /* DaredevilKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D4AF2DC8526F5190B1962EC6 /* DaredevilKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C5DE5FEB414FE68E680C2668 /* TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF4A5E23D6614F9CA21B6A /* TrackerTests.swift */; };
+		CCE2E3AA0B6399B0374019B7 /* StatusPhrasesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2459721DA9443A7751DCBCD0 /* StatusPhrasesTests.swift */; };
+		CFA6904CE62D1D3AB81C5C18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FA10AD1642F5AA598022C9 /* ContentView.swift */; };
+		D6AC57446FAAD30CBFA7D492 /* DaredevilApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB496A683B54D7C8EDD99CE /* DaredevilApp.swift */; };
+		DD780201DC4FB426AEC82B38 /* ObstacleDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33838B3304047BCE8C410759 /* ObstacleDetector.swift */; };
+		E34CFFD6525D587938AC0F24 /* DaredevilKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4AF2DC8526F5190B1962EC6 /* DaredevilKit.framework */; };
+		E5EAFAC0D00045BC15BAA04C /* OpenSpaceTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A53DEF5F7A581886C6C6908 /* OpenSpaceTracker.swift */; };
+		EAB11CCE67AECB1F1FD4DEA6 /* DepthGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C264708B9A9E68771B50C2 /* DepthGrid.swift */; };
+		FB62ECA43C38E61ACA128CC8 /* OpenSpaceDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5886CE0146C373BFD885A6C0 /* OpenSpaceDetector.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21C295A9571B9936B42FFA75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40FD965E5E0557F18A268565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F793253470862891E9E3892A;
+			remoteInfo = DaredevilKit;
+		};
+		41A336CB8AA9C892630EC2BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40FD965E5E0557F18A268565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F793253470862891E9E3892A;
+			remoteInfo = DaredevilKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		73B70693F91336DFF130AD30 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				56C6315DE7358FA985CD42AB /* DaredevilKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB9A04B103699249C98ECDB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BD078369BF7CAFDC9C1E0B4F /* DaredevilKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		07956C77C379936CF9A82173 /* NoiseRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoiseRenderer.swift; sourceTree = "<group>"; };
+		0E2976CCB9C6223D28FBB253 /* DaredevilKitTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = DaredevilKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		142C9E6B8BD14FF3E7AA79E0 /* SpatialAudioEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialAudioEngine.swift; sourceTree = "<group>"; };
+		1BBD214FCCA03C148F0244DE /* CueMappingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CueMappingTests.swift; sourceTree = "<group>"; };
+		1E81954E7FB6A2760BB50FAB /* ObstacleDetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObstacleDetectorTests.swift; sourceTree = "<group>"; };
+		207E4139F6FC11DF3C6954F3 /* StatusPhrases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusPhrases.swift; sourceTree = "<group>"; };
+		2323E9C292230BE512C6A098 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		2459721DA9443A7751DCBCD0 /* StatusPhrasesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusPhrasesTests.swift; sourceTree = "<group>"; };
+		28FDF461F8951D782A97A185 /* CueMapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CueMapping.swift; sourceTree = "<group>"; };
+		33838B3304047BCE8C410759 /* ObstacleDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObstacleDetector.swift; sourceTree = "<group>"; };
+		401F50B38371882A6688E768 /* HeadTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadTracker.swift; sourceTree = "<group>"; };
+		42CF4A5E23D6614F9CA21B6A /* TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerTests.swift; sourceTree = "<group>"; };
+		492D4964AB4706ECA9632E20 /* PipelineCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipelineCoordinator.swift; sourceTree = "<group>"; };
+		5886CE0146C373BFD885A6C0 /* OpenSpaceDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSpaceDetector.swift; sourceTree = "<group>"; };
+		5A53DEF5F7A581886C6C6908 /* OpenSpaceTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSpaceTracker.swift; sourceTree = "<group>"; };
+		61FE99420B1B8955EFC51B20 /* ARDepthSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARDepthSource.swift; sourceTree = "<group>"; };
+		67FA10AD1642F5AA598022C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7E9AD74DB2E1AEA4F9180758 /* DepthGridTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthGridTests.swift; sourceTree = "<group>"; };
+		7FAA2B7700C3B948BBC5EAF7 /* HearingGuardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearingGuardTests.swift; sourceTree = "<group>"; };
+		8B9221F340CF11D2319A7FB3 /* DisclaimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclaimerView.swift; sourceTree = "<group>"; };
+		8C5ADD6E7E6ADA1D377B46B1 /* HearingGuard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearingGuard.swift; sourceTree = "<group>"; };
+		9D136EE69D2A8DBD0C2A6AD1 /* SpeechAnnouncer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechAnnouncer.swift; sourceTree = "<group>"; };
+		9D3A8E159A3D52F68C20488B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B970BBAC92E21C4641F6CBBC /* Daredevil.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Daredevil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45A941276F0E0593835FE1D /* OpenSpaceDetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSpaceDetectorTests.swift; sourceTree = "<group>"; };
+		D4AF2DC8526F5190B1962EC6 /* DaredevilKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DaredevilKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEB496A683B54D7C8EDD99CE /* DaredevilApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaredevilApp.swift; sourceTree = "<group>"; };
+		E5C264708B9A9E68771B50C2 /* DepthGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthGrid.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22928A14F9B600BC5F665CF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E34CFFD6525D587938AC0F24 /* DaredevilKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ABF93C17325A1207B658D34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				502CD5617302FEF7E73B85FD /* DaredevilKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0020B06D9BCCAD2D2F5A0B60 /* DaredevilKit */ = {
+			isa = PBXGroup;
+			children = (
+				A96338E47B8B9A31C7FC2916 /* Sources */,
+			);
+			path = DaredevilKit;
+			sourceTree = "<group>";
+		};
+		2A928C41CF11B7A28304072B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B970BBAC92E21C4641F6CBBC /* Daredevil.app */,
+				D4AF2DC8526F5190B1962EC6 /* DaredevilKit.framework */,
+				0E2976CCB9C6223D28FBB253 /* DaredevilKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A96338E47B8B9A31C7FC2916 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28FDF461F8951D782A97A185 /* CueMapping.swift */,
+				E5C264708B9A9E68771B50C2 /* DepthGrid.swift */,
+				8C5ADD6E7E6ADA1D377B46B1 /* HearingGuard.swift */,
+				33838B3304047BCE8C410759 /* ObstacleDetector.swift */,
+				5886CE0146C373BFD885A6C0 /* OpenSpaceDetector.swift */,
+				5A53DEF5F7A581886C6C6908 /* OpenSpaceTracker.swift */,
+				207E4139F6FC11DF3C6954F3 /* StatusPhrases.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		AEB54F29471559F40291E712 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				61FE99420B1B8955EFC51B20 /* ARDepthSource.swift */,
+				401F50B38371882A6688E768 /* HeadTracker.swift */,
+				07956C77C379936CF9A82173 /* NoiseRenderer.swift */,
+				492D4964AB4706ECA9632E20 /* PipelineCoordinator.swift */,
+				142C9E6B8BD14FF3E7AA79E0 /* SpatialAudioEngine.swift */,
+				9D136EE69D2A8DBD0C2A6AD1 /* SpeechAnnouncer.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		E3E25E9E2C3A9689953926D4 /* Daredevil */ = {
+			isa = PBXGroup;
+			children = (
+				9D3A8E159A3D52F68C20488B /* Info.plist */,
+				E48971A1A2F290D63C6B9C13 /* App */,
+				AEB54F29471559F40291E712 /* Engine */,
+			);
+			path = Daredevil;
+			sourceTree = "<group>";
+		};
+		E48971A1A2F290D63C6B9C13 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				67FA10AD1642F5AA598022C9 /* ContentView.swift */,
+				DEB496A683B54D7C8EDD99CE /* DaredevilApp.swift */,
+				8B9221F340CF11D2319A7FB3 /* DisclaimerView.swift */,
+				2323E9C292230BE512C6A098 /* HelpView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E74E61AF7E5D025BC2B2FA52 = {
+			isa = PBXGroup;
+			children = (
+				E3E25E9E2C3A9689953926D4 /* Daredevil */,
+				0020B06D9BCCAD2D2F5A0B60 /* DaredevilKit */,
+				F1A08F3B2F0B874C792C5F74 /* DaredevilKitTests */,
+				2A928C41CF11B7A28304072B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1A08F3B2F0B874C792C5F74 /* DaredevilKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				1BBD214FCCA03C148F0244DE /* CueMappingTests.swift */,
+				7E9AD74DB2E1AEA4F9180758 /* DepthGridTests.swift */,
+				7FAA2B7700C3B948BBC5EAF7 /* HearingGuardTests.swift */,
+				1E81954E7FB6A2760BB50FAB /* ObstacleDetectorTests.swift */,
+				D45A941276F0E0593835FE1D /* OpenSpaceDetectorTests.swift */,
+				2459721DA9443A7751DCBCD0 /* StatusPhrasesTests.swift */,
+				42CF4A5E23D6614F9CA21B6A /* TrackerTests.swift */,
+			);
+			path = DaredevilKitTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		155A58D24EF79CC57C2CD9BF /* Daredevil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80A971B330A78B0DFA71ECA9 /* Build configuration list for PBXNativeTarget "Daredevil" */;
+			buildPhases = (
+				AFD1E8D0E7FDE0C2ABCF4A2F /* Sources */,
+				2ABF93C17325A1207B658D34 /* Frameworks */,
+				73B70693F91336DFF130AD30 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66B7A0B5B1DC5EE6570F1854 /* PBXTargetDependency */,
+			);
+			name = Daredevil;
+			packageProductDependencies = (
+			);
+			productName = Daredevil;
+			productReference = B970BBAC92E21C4641F6CBBC /* Daredevil.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9980E98D9684A187B502C51B /* DaredevilKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A91776B33BEB0D920B5C7D51 /* Build configuration list for PBXNativeTarget "DaredevilKitTests" */;
+			buildPhases = (
+				8495613A8F18D6E538127A56 /* Sources */,
+				22928A14F9B600BC5F665CF0 /* Frameworks */,
+				8AB9A04B103699249C98ECDB /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0132529D58B32E6D0C94016D /* PBXTargetDependency */,
+			);
+			name = DaredevilKitTests;
+			packageProductDependencies = (
+			);
+			productName = DaredevilKitTests;
+			productReference = 0E2976CCB9C6223D28FBB253 /* DaredevilKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F793253470862891E9E3892A /* DaredevilKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 535C7A8B1F164DC57E64DFFA /* Build configuration list for PBXNativeTarget "DaredevilKit" */;
+			buildPhases = (
+				7AB1CE05298BF39A3E48865E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DaredevilKit;
+			packageProductDependencies = (
+			);
+			productName = DaredevilKit;
+			productReference = D4AF2DC8526F5190B1962EC6 /* DaredevilKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40FD965E5E0557F18A268565 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					155A58D24EF79CC57C2CD9BF = {
+						ProvisioningStyle = Automatic;
+					};
+					9980E98D9684A187B502C51B = {
+						ProvisioningStyle = Automatic;
+					};
+					F793253470862891E9E3892A = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9E34749878C5C0671B47F082 /* Build configuration list for PBXProject "Daredevil" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = E74E61AF7E5D025BC2B2FA52;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2A928C41CF11B7A28304072B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F793253470862891E9E3892A /* DaredevilKit */,
+				155A58D24EF79CC57C2CD9BF /* Daredevil */,
+				9980E98D9684A187B502C51B /* DaredevilKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AB1CE05298BF39A3E48865E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845C76F65204A6CAEA5B4C9F /* CueMapping.swift in Sources */,
+				EAB11CCE67AECB1F1FD4DEA6 /* DepthGrid.swift in Sources */,
+				4417ED6496C5730BE9E42740 /* HearingGuard.swift in Sources */,
+				DD780201DC4FB426AEC82B38 /* ObstacleDetector.swift in Sources */,
+				FB62ECA43C38E61ACA128CC8 /* OpenSpaceDetector.swift in Sources */,
+				E5EAFAC0D00045BC15BAA04C /* OpenSpaceTracker.swift in Sources */,
+				A1BC1F48BCED984947D2DB7B /* StatusPhrases.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8495613A8F18D6E538127A56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0879482EFADAD5024845B5 /* CueMappingTests.swift in Sources */,
+				61E3B9E582B5BA90AE34F365 /* DepthGridTests.swift in Sources */,
+				6F5D5AC54861F429508A5DE6 /* HearingGuardTests.swift in Sources */,
+				3977D04E6BAA9DEAE17631C6 /* ObstacleDetectorTests.swift in Sources */,
+				10FE50EC92112B6AB9ACB913 /* OpenSpaceDetectorTests.swift in Sources */,
+				CCE2E3AA0B6399B0374019B7 /* StatusPhrasesTests.swift in Sources */,
+				C5DE5FEB414FE68E680C2668 /* TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD1E8D0E7FDE0C2ABCF4A2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790EC0110EA699BF7AF43BAE /* ARDepthSource.swift in Sources */,
+				CFA6904CE62D1D3AB81C5C18 /* ContentView.swift in Sources */,
+				D6AC57446FAAD30CBFA7D492 /* DaredevilApp.swift in Sources */,
+				1137C86ADDCE3DC220FB7916 /* DisclaimerView.swift in Sources */,
+				6A08355B62F5CE5A748FDDFB /* HeadTracker.swift in Sources */,
+				709EC43C4F492660CA818A67 /* HelpView.swift in Sources */,
+				65F96CE35B43E8CA58F22F41 /* NoiseRenderer.swift in Sources */,
+				4A3B323B6E50AFB68FCFC5D8 /* PipelineCoordinator.swift in Sources */,
+				2BEFC9A6E2CA073BB3699DA4 /* SpatialAudioEngine.swift in Sources */,
+				1D84F083CD4867C7E1462C8F /* SpeechAnnouncer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0132529D58B32E6D0C94016D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F793253470862891E9E3892A /* DaredevilKit */;
+			targetProxy = 41A336CB8AA9C892630EC2BB /* PBXContainerItemProxy */;
+		};
+		66B7A0B5B1DC5EE6570F1854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F793253470862891E9E3892A /* DaredevilKit */;
+			targetProxy = 21C295A9571B9936B42FFA75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2480353DF24BE573F450BC98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Daredevil/Info.plist;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.mit.assistivetech.Daredevil;
+				SDKROOT = iphoneos;
+				SUPPORTED_INTERFACE_ORIENTATIONS = UIInterfaceOrientationPortrait;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26F1986B8A6CCCA3F93D1C47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Daredevil/Info.plist;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.mit.assistivetech.Daredevil;
+				SDKROOT = iphoneos;
+				SUPPORTED_INTERFACE_ORIENTATIONS = UIInterfaceOrientationPortrait;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C3A6E4D9E44CCDDB6DDD60F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.mit.assistivetech.DaredevilKitTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5298AF485569CF396ECBD6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		776090CC0EE2417E43592C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.mit.assistivetech.DaredevilKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		7AF2BAA8623B2BA240D350FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D7E7DC298E827D53172CF46F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.mit.assistivetech.DaredevilKitTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9B1E62B5535BE04CBEE4CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.mit.assistivetech.DaredevilKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		535C7A8B1F164DC57E64DFFA /* Build configuration list for PBXNativeTarget "DaredevilKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776090CC0EE2417E43592C6F /* Debug */,
+				D9B1E62B5535BE04CBEE4CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		80A971B330A78B0DFA71ECA9 /* Build configuration list for PBXNativeTarget "Daredevil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2480353DF24BE573F450BC98 /* Debug */,
+				26F1986B8A6CCCA3F93D1C47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9E34749878C5C0671B47F082 /* Build configuration list for PBXProject "Daredevil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5298AF485569CF396ECBD6A7 /* Debug */,
+				7AF2BAA8623B2BA240D350FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A91776B33BEB0D920B5C7D51 /* Build configuration list for PBXNativeTarget "DaredevilKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E7DC298E827D53172CF46F /* Debug */,
+				2C3A6E4D9E44CCDDB6DDD60F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40FD965E5E0557F18A268565 /* Project object */;
+}

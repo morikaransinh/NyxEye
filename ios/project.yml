@@ -1,0 +1,77 @@
+name: Daredevil
+options:
+  bundleIdPrefix: edu.mit.assistivetech
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    TARGETED_DEVICE_FAMILY: "1"
+    CODE_SIGN_STYLE: Automatic
+    GENERATE_INFOPLIST_FILE: true
+
+targets:
+  DaredevilKit:
+    type: framework
+    platform: iOS
+    sources:
+      - DaredevilKit/Sources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: edu.mit.assistivetech.DaredevilKit
+        BUILD_LIBRARY_FOR_DISTRIBUTION: false
+
+  Daredevil:
+    type: application
+    platform: iOS
+    sources:
+      - Daredevil
+    dependencies:
+      - target: DaredevilKit
+        embed: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: edu.mit.assistivetech.Daredevil
+        INFOPLIST_KEY_UILaunchScreen_Generation: true
+        SUPPORTED_INTERFACE_ORIENTATIONS: UIInterfaceOrientationPortrait
+    info:
+      path: Daredevil/Info.plist
+      properties:
+        CFBundleDisplayName: Daredevil
+        NSCameraUsageDescription: "Daredevil uses the camera and LiDAR sensor to sense depth in your surroundings and translate it into spatial audio."
+        NSMotionUsageDescription: "Daredevil uses AirPods head motion to keep audio cues anchored to the world as you turn your head."
+        UIRequiredDeviceCapabilities: [arkit]
+        UIBackgroundModes: [audio]
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+
+  DaredevilKitTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - DaredevilKitTests
+    dependencies:
+      - target: DaredevilKit
+
+schemes:
+  Daredevil:
+    build:
+      targets:
+        Daredevil: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - DaredevilKitTests
+  DaredevilKit:
+    build:
+      targets:
+        DaredevilKit: all
+        DaredevilKitTests: all
+    test:
+      config: Debug
+      targets:
+        - DaredevilKitTests
