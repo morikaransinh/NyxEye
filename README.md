@@ -1,7 +1,5 @@
 # NyxEye
 
-> **Attribution:** This project is based on [Project Daredevil](https://github.com/MIT-Assistive-Technology/Project-Daredevil) by MIT Assistive Technology, used under the MIT License. See [LICENSE](LICENSE) for the original copyright notice.
-
 **Spatial Audio Blind Assistance**
 
 A computer vision and spatial audio system that translates depth perception into sound — like digital echolocation. It uses a webcam to detect objects, estimate how close they are, and convert that into stereo spatial audio cues (played through headphones) so a user can "hear" their surroundings.
